@@ -1,0 +1,19 @@
+{
+  "name": "apply-cv-marketplace",
+  "owner": {
+    "name": "FrancineMADOH"
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "description": "Job application assistant — reads your CVs, analyses job offers, and prepares complete application dossiers with GO/NO-GO decision, adapted CV, email, and tracking."
+  },
+  "plugins": [
+    {
+      "name": "apply-cv",
+      "source": "./plugins/apply-cv",
+      "version": "1.0.0",
+      "license": "MIT",
+      "category": "productivity"
+    }
+  ]
+}

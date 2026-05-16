@@ -1,0 +1,9 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# User job search data — never commit personal files
+candidatures/
+offre.txt
+*.pdf
+*.docx

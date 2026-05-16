@@ -1,0 +1,14 @@
+{
+  "name": "apply-cv",
+  "version": "1.0.0",
+  "description": "Job application assistant — reads your CVs, analyses job offers, and prepares complete application dossiers.",
+  "author": "FrancineMADOH",
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "apply",
+      "file": "commands/apply.md",
+      "description": "Analyse a job offer and prepare a complete application dossier from your CVs"
+    }
+  ]
+}
