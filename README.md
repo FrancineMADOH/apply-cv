@@ -11,10 +11,17 @@
 In any Claude Code session, run:
 
 ```
-/plugin marketplace add FrancineMADOH/apply-cv
+/plugin install apply-cv --marketplace FrancineMADOH/apply-cv
 ```
 
-That's it. The `/apply` command is now available in your project.
+On older Claude Code versions, use two steps:
+
+```
+/plugin marketplace add FrancineMADOH/apply-cv
+/plugin install apply-cv@apply-cv-marketplace
+```
+
+Then run `/reload-plugins` (or restart Claude Code). The `/apply` command is now available.
 
 ---
 
@@ -116,10 +123,17 @@ MIT — free to use, fork, and adapt.
 Dans n'importe quelle session Claude Code, exécutez :
 
 ```
-/plugin marketplace add FrancineMADOH/apply-cv
+/plugin install apply-cv --marketplace FrancineMADOH/apply-cv
 ```
 
-C'est tout. La commande `/apply` est maintenant disponible dans votre projet.
+Sur les versions plus anciennes de Claude Code, en deux étapes :
+
+```
+/plugin marketplace add FrancineMADOH/apply-cv
+/plugin install apply-cv@apply-cv-marketplace
+```
+
+Puis lancez `/reload-plugins` (ou redémarrez Claude Code). La commande `/apply` est maintenant disponible.
 
 ---
 
